@@ -1,0 +1,188 @@
+body {
+  color: #000000;
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+hr{
+  border-style: dotted;
+  border-bottom: 0;
+  border-color: #686d76;
+  width: 4%;
+  border-width: 0.35rem;
+}
+
+h1 {
+  color: #66BFBF;
+  margin: 3rem auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem; /*1 em = 16px; also 100% = 16px; if the font size is mentioned in pixels, then it doesn't matter even if the parent element
+  is specified with other font-size but if the font-size is mentioned in terms of "em or percentages", then the child element's font size will
+  get added by that of the parent element'S font size.
+  To avoid this, there is something caleed "rem" in css3 which set's the font-size ignoring all the other parent element's font-size.*/
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: normal;
+  margin: 0 auto;
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+a:hover {
+  color: #EAF6F6;  
+}
+
+.guitar-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.code-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.profile-img {
+  margin-bottom: 30px;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top:50px;
+}
+.profile {
+  margin: 75px auto;
+  width: 35%;
+  line-height: 1.75;
+}
+
+.skills {
+  position: relative;
+  margin: 100px auto;
+}
+
+.skill-row{
+  margin: 75px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 1.75;
+}
+
+.contact-me {
+  margin: 75px auto;
+  line-height: 1.75;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin: 0;
+  padding: 50px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  margin: 25px auto;
+}
+
+.footer-link {
+  color: #11999E;
+  margin: auto 15px;
+  text-decoration: none;
+}
+
+.btn {
+   margin: 16px auto;
+   background: #11999E;
+   background-image: -webkit-linear-gradient(top, #11999E, #11999E);
+   background-image: -moz-linear-gradient(top, #11999E, #11999E);
+   background-image: -ms-linear-gradient(top, #11999E, #11999E);
+   background-image: -o-linear-gradient(top, #11999E, #11999E);
+   background-image: -webkit-gradient(to bottom, #11999E, #11999E);
+   -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   border-radius: 8px;
+   height: 10px;
+   line-height: 10px;
+   color: #FFFFFF;
+   font-family: Arial;
+   width: 150px;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 19px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+
+
+
+
+
+
+
+/*.TopContainer {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 0; /* The absolute positioning will make these elements positioned w.r.t the parent element which is the body element here.
+  they start at the top left corner (or) randomly positioned inside the parent element and then creates spaces to the left, right, top or bottom
+  as per the mentioned attribute.
+  This will take the element out of the layout.*/
+
+  /*position: relative;
+  left:400px;*/ /*The relative positioning will make these elements positioned w.r.t the elements static position, which is
+  as per the rules of the html. This also creates spaces in the same way as that of the relative positioning.
+  This won't take th element out of the layout.
+}
+
+.MiddleContainer{
+  background-color: blue;
+  height: 200px;
+  width:200px;
+  position: absolute;
+  left: 200px;
+  /*position: relative;
+  left:200px;
+}
+
+.BottomContainer{
+  background-color: yellow;
+  height: 200px;
+  width:200px;
+  position: absolute;
+  left: 400px;
+  /*position: relative;
+  right: 200px;
+}*/
