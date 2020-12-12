@@ -35,6 +35,8 @@ h2 {
 h3 {
   font-family: 'Josefin Sans', sans-serif;
   color: #11999E;
+  font-weight: normal;
+  font-size: 1.5rem;
 }
 
 a {
@@ -99,7 +101,7 @@ a:hover {
 .contact-me {
   margin: 75px auto;
   line-height: 1.75;
-  width: 50%;
+  width: 30%;
 }
 
 .bottom-container {
