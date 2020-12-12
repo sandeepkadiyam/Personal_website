@@ -72,12 +72,12 @@ a:hover {
 .bottom-cloud {
   position: absolute;
   bottom: 300px;
-  left: 300px;
+  left: 150px;
 }
 
 .top-cloud {
   position: absolute;
-  right: 300px;
+  right: 150px;
   top:50px;
 }
 .profile {
